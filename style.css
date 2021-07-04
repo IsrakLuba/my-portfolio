@@ -1,3 +1,18 @@
 body{
     font-family: 'Lobster', cursive;
 }
+h1{
+    font-size: 40px;
+}
+.black-color{
+    color : black;
+}
+.palevioletred-color{
+    color : palevioletred;
+}
+.violet-color{
+    color : violet;
+}
+h3{
+    font-size: 30px;
+}
