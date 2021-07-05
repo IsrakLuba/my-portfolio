@@ -1,5 +1,7 @@
 body{
     font-family: 'Lobster', cursive;
+    background-color : gainsboro;
+    
 }
 h1{
     font-family: 'Poppins', sans-serif;
@@ -14,7 +16,7 @@ h1{
 h3{
     font-size: 20px;
 }
-section{
+.flexible-container{
     display : flex;
     margin-bottom : 150px;
 }
@@ -25,9 +27,7 @@ section{
 .half-width img{
     width : 70%;
     padding-top: 1%;
-    border-radius: 100px;
-    
-
+    border-radius: 40px;
 }
 .link-button{
     text-decoration: none;
@@ -45,4 +45,7 @@ section{
     background-image: url(back.pic\ 1.jpg) ;
     border-radius: 50px;
 
+}
+.img{
+    clip-path: circle();
 }
