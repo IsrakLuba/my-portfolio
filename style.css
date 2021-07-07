@@ -1,6 +1,5 @@
 body{
     font-family: 'Lobster', cursive;
-    background-color : gainsboro;
     
 }
 h1{
@@ -48,4 +47,19 @@ h3{
 }
 .img{
     clip-path: circle();
+}
+.experience-item{
+    box-shadow: 10px 10px 20px gray ;
+    width : 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 1%;
+    border-radius: 10px;
+   
+}
+.begginer-experience{
+    border : 7px 
+    border-image: linear-gradient(red, blue);
+    border-image-slice: 1;
+
 }
